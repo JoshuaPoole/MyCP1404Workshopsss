@@ -61,33 +61,33 @@ import math
 # ShippingCost = itemNumber * CostPerItem
 # print("Shipping Cost is $",ShippingCost)
 
-
-print ("Number sequence generator")
-menu = input("1:Even numbers 2:Odd numbers 3:Squares 4:Exit")
-while menu != "4":
-    if menu == "1":
-        x = int(input("Enter first number"))
-        y = int(input("Enter second number"))
-        for i in range (x, y, 2):
-            print(i, end=' ')
-        print()
-        menu = input("1:Even numbers 2:Odd numbers 3:Squares 4:Exit")
-    elif menu == "2":
-        x= int(input("Enter first number"))
-        y = int(input("Enter second number"))
-        for i in range (x, y ,3):
-            print(i, end=' ')
-        print()
-        menu = input("1:Even numbers 2:Odd numbers 3:Squares 4:Exit")
-    elif menu == "3":
-        x= int(input("Enter first number"))
-        y = int(input("Enter second number"))
-        for i in range (x, y, 1):
-            if(float(math.sqrt(i)) % 1 == 0):
-                print(i, end=' ')
-        print()
-        menu = input("1:Even numbers 2:Odd numbers 3:Squares 4:Exit")
-print("Goodbye!")
+#
+# print ("Number sequence generator")
+# menu = input("1:Even numbers 2:Odd numbers 3:Squares 4:Exit")
+# while menu != "4":
+#     if menu == "1":
+#         x = int(input("Enter first number"))
+#         y = int(input("Enter second number"))
+#         for i in range (x, y, 2):
+#             print(i, end=' ')
+#         print()
+#         menu = input("1:Even numbers 2:Odd numbers 3:Squares 4:Exit")
+#     elif menu == "2":
+#         x= int(input("Enter first number"))
+#         y = int(input("Enter second number"))
+#         for i in range (x, y ,3):
+#             print(i, end=' ')
+#         print()
+#         menu = input("1:Even numbers 2:Odd numbers 3:Squares 4:Exit")
+#     elif menu == "3":
+#         x= int(input("Enter first number"))
+#         y = int(input("Enter second number"))
+#         for i in range (x, y, 1):
+#             if(float(math.sqrt(i)) % 1 == 0):
+#                 print(i, end=' ')
+#         print()
+#         menu = input("1:Even numbers 2:Odd numbers 3:Squares 4:Exit")
+# print("Goodbye!")
 
 
 
@@ -139,20 +139,31 @@ print("Goodbye!")
 #     print("Cannot divide by zero!")
 # print("Finished")
 
-# lower = input("lower = ").strip(' ')
-# upper = input("upper = ").strip(' ')
-# print("Enter a number :{}-{}".format(lower,upper))
-#
-# for i in range(int(lower), int(upper), 1):
-#     print("{} {}".format(i,chr(i)))
+Need to finish
+
+lower = input("lower = ").strip(' ')
+upper = input("upper = ").strip(' ')
+print("Enter a number :{}-{}".format(lower,upper))
+
+for i in range(int(lower), int(upper), 1):
+    print("{} {}".format(i,chr(i)))
 
 
+Need to finish
+
+finished = False
+
+result=0
+while not finished:
+    try:
+        ?
+        ?
+    except?:
+        print("Please enter a valid integer")
+    print("valid result is",result)
 
 
-
-
-
-outFile = open("name.txt","w")
+# outFile = open("name.txt","w")
 # name = input("What is your name?")
 # print(name, file=outFile)
 # outFile.close()
@@ -175,4 +186,12 @@ outFile = open("name.txt","w")
 #     total += number
 # print(total)
 # in_file.close()
+
+Need to finish
+
+MINIMUM_LENGTH = 5
+MAXIMUM_LENGTH = 15
+
+print("Please enter a valid password")
+passwordChecker = input("Your password must be between 5 and 15 characters, and contain: 1 or more upperchase characters 1 or more lowercase characters 1 or more numbers and 1 or more special characters:!@#$%^&*()_-=+`~,./o'[]\<>?0{}")
 
