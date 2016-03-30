@@ -139,28 +139,25 @@ import math
 #     print("Cannot divide by zero!")
 # print("Finished")
 
-Need to finish
+#
+# lower = input("lower = ").strip(' ')
+# upper = input("upper = ").strip(' ')
+# print("Enter a number:({}-{})".format(lower,upper))
+#
+# for i in range(int(lower), int(upper), 1):
+#     print("{0} {1:>5}".format(i,chr(i)))
 
-lower = input("lower = ").strip(' ')
-upper = input("upper = ").strip(' ')
-print("Enter a number :{}-{}".format(lower,upper))
 
-for i in range(int(lower), int(upper), 1):
-    print("{} {}".format(i,chr(i)))
-
-
-Need to finish
-
-finished = False
-
-result=0
-while not finished:
-    try:
-        ?
-        ?
-    except?:
-        print("Please enter a valid integer")
-    print("valid result is",result)
+# finished = False
+#
+# result=0
+# while not finished:
+#     try:
+#         result = int(input("Enter an integer"))
+#     except ValueError:
+#         print("Please enter a valid integer")
+#
+# print("valid result is",result)
 
 
 # outFile = open("name.txt","w")
@@ -187,7 +184,6 @@ while not finished:
 # print(total)
 # in_file.close()
 
-Need to finish
 
 MINIMUM_LENGTH = 5
 MAXIMUM_LENGTH = 15
